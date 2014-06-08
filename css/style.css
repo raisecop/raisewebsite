@@ -46,16 +46,15 @@ header{
 	border-spacing: 0;
 	text-decoration:none;
 	background-color: #ccd0cd;
-	padding: 5px 10px;
+	padding: 2px 10px 6px 10px;
 }
 #searchinput{
 	margin-right: 0;
 	font-size: 18px;
 	padding: 0;
+	height: 32px;
 	padding-left: 2px;
-	border-color: #ccd0cd;
-	border-width: 1px;
-	border-spacing: 0;
+	font-family: "Franklin Gothic Medium";
 }
 #mainnav{
 	margin-top: 0px;
