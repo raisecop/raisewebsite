@@ -1,0 +1,145 @@
+body{
+	width: 768px;
+	margin: auto;
+	font-family: "Microsoft YaHei";
+	font-size: 12.5;
+	color: #c1bfbf;
+}
+li a:link,li a:visited{
+	text-decoration: none;
+}
+header{
+	height: 180px;
+	//background-color: blue;
+	margin-bottom: 0;
+}
+#logo{
+	//margin-left: 50px;
+}
+#loginout p {
+	text-align: right;
+	margin-right: 25px;
+}
+#loginout p a:link{
+	color: silver;
+	font-size: 14px;
+}
+#head1{
+	font-size: 72px;
+	color: #4bce5f;
+	font-weight: bold;
+}
+#head2{
+	font-size: 14px;
+	color: #f9c308;
+	margin-left: 70px;
+}
+#search{
+	display: inline;
+	float: right;
+	margin-right: 25px;
+}
+#searchbutton{
+	font-size: 18px;
+	margin-left: 0;
+	color: white;
+	border-spacing: 0;
+	text-decoration:none;
+	background-color: #ccd0cd;
+	padding: 5px 10px;
+}
+#searchinput{
+	margin-right: 0;
+	font-size: 18px;
+	padding: 0;
+	padding-left: 2px;
+	border-color: #ccd0cd;
+	border-width: 1px;
+	border-spacing: 0;
+}
+#mainnav{
+	margin-top: 0px;
+	background-color: black;
+	font-size: 18px;
+}
+.nav ul{
+	margin:0;
+	list-style: none;
+}
+#mainnav ul{
+	height: 40px;
+	padding: 0px;
+}
+#mainnav ul li{
+	padding: 8px 33px;
+	margin: 0px 0px;
+	border-left: thin solid white;
+}
+#mainnav #noborder{
+	border-left: none;
+}
+#mainnav ul li{
+	float: left;
+}
+#mainnav a:link,#mainnav a:visited{
+	color: white;
+	text-decoration: none;
+}
+#mainnav .selected{
+	background-color: #f6f908;
+	border-bottom: thick solid #4ace5f;
+}
+#mainnav .selected a:link,#mainnav .selected a:visited{
+	color: black;
+	font-weight: bold;
+}
+#zcproject{
+	margin:50px 10px;
+}
+
+.header2{
+	font-size:24px;
+	color: #4ace5f;
+	display: inline;
+}
+.navul{
+	display: inline;
+}
+#zcproject{
+	width: 450px;
+}
+.navul li{
+	list-style: none;
+	float:right;
+	height: 30px;
+	margin: 6px 10px 0px 10px;
+}
+.navul a:link,.navul a:visited{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	background-color: #ccd0cd;
+	padding: 5px 5px;
+}
+#zcproject .navul li.selected a:link,#zcproject .navul li.selected a:visited{	
+	background-color: #4ace5f;	
+}
+#subnav{
+	padding-bottom: 5px;
+	border-bottom: thin solid #ccd0cd;
+}
+#ssubnav ul{
+	padding: 0;
+}
+#ssubnav li{
+	float: left;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+#ssubnav a:link,#ssubnav a:visited{
+	color: #ccd0cd;
+	font-size: 15px;
+}
+#ssubnav .selected a:link,#ssubnav .selected a:visited{
+	color: #4ace5f;
+}
