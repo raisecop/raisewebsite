@@ -52,6 +52,7 @@ header{
 	margin-right: 0;
 	font-size: 18px;
 	padding: 0;
+	width: 200px;
 	height: 32px;
 	padding-left: 2px;
 	font-family: "Franklin Gothic Medium";
@@ -94,8 +95,23 @@ header{
 	color: black;
 	font-weight: bold;
 }
+div.tableContainer{
+	display: table;
+	//width: 768px;
+	border-spacing: 10px;
+	vertical-align: left;
+}
+div.tableRow{
+	//display: table-row;
+}
+div.tableCell{
+	//display: table-cell;
+	padding: 5% 0;
+	vertical-align: top;	
+}
 #zcproject{
-	margin:50px 10px;
+	//margin:50px 0px;
+	//width: 500px;
 }
 
 .header2{
@@ -105,9 +121,6 @@ header{
 }
 .navul{
 	display: inline;
-}
-#zcproject{
-	width: 450px;
 }
 .navul li{
 	list-style: none;
@@ -143,4 +156,7 @@ header{
 }
 #ssubnav .selected a:link,#ssubnav .selected a:visited{
 	color: #4ace5f;
+}
+#yrproject{
+	width: 300px;	
 }
