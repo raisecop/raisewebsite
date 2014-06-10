@@ -13,6 +13,8 @@ header{
 	//background-color: blue;
 	margin-bottom: 0;
 }
+div.nav ul{
+}
 #logo{
 	//margin-left: 50px;
 }
@@ -61,6 +63,7 @@ header{
 	margin-top: 0px;
 	background-color: black;
 	font-size: 18px;
+	margin-bottom: 10px;
 }
 .nav ul{
 	margin:0;
@@ -95,25 +98,29 @@ header{
 	color: black;
 	font-weight: bold;
 }
+
 div.tableContainer{
 	display: table;
-	//width: 768px;
 	border-spacing: 10px;
 	vertical-align: left;
 }
 div.tableRow{
-	//display: table-row;
+	display: table-row;
+	//width:100%;
 }
 div.tableCell{
-	//display: table-cell;
-	padding: 5% 0;
+	display: table-cell;
+	//table-layout: left;
+	//padding: 5% 0;
 	vertical-align: top;	
 }
 #zcproject{
 	//margin:50px 0px;
-	//width: 500px;
+	width: 500px;
 }
-
+#zch{
+	margin-right: 35px;
+}
 .header2{
 	font-size:24px;
 	color: #4ace5f;
@@ -122,11 +129,14 @@ div.tableCell{
 .navul{
 	display: inline;
 }
+.navul ul{
+	display: inline;
+}
 .navul li{
+	display: inline;
 	list-style: none;
-	float:right;
 	height: 30px;
-	margin: 6px 10px 0px 10px;
+	margin: 6px 6px 6px 6px;
 }
 .navul a:link,.navul a:visited{
 	text-decoration: none;
@@ -135,28 +145,45 @@ div.tableCell{
 	background-color: #ccd0cd;
 	padding: 5px 5px;
 }
-#zcproject .navul li.selected a:link,#zcproject .navul li.selected a:visited{	
+.navul li.selected a:link,.navul li.selected a:visited{	
 	background-color: #4ace5f;	
 }
 #subnav{
 	padding-bottom: 5px;
 	border-bottom: thin solid #ccd0cd;
 }
-#ssubnav ul{
+.ssubnav ul{
 	padding: 0;
 }
-#ssubnav li{
+.ssubnav li{
 	float: left;
 	padding-right: 10px;
 	padding-top: 10px;
 }
-#ssubnav a:link,#ssubnav a:visited{
+.ssubnav a:link,.ssubnav a:visited{
 	color: #ccd0cd;
 	font-size: 15px;
 }
-#ssubnav .selected a:link,#ssubnav .selected a:visited{
+.ssubnav .selected a:link,.ssubnav .selected a:visited{
 	color: #4ace5f;
 }
 #yrproject{
 	width: 300px;	
+	border-left: thin solid #ccd0cd;
+	padding-left: 10px;
+}
+
+.ssubnav2{
+	display: inline;
+	margin-left: 20px;
+}
+.ssubnav2 li{
+	float: none;
+	display: inline;
+}
+div#navul2,div#navul2 ul{
+	//height: 40px;
+	display: block;
+	padding: 0;
+	margin: 10px 0px;
 }
