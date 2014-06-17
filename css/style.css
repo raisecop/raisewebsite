@@ -99,9 +99,10 @@ div.nav ul{
 	font-weight: bold;
 }
 
-div.tableContainer{
+div.tableContainer1{
+	clear:both;
 	display: table;
-	border-spacing: 10px;
+	border-spacing: 5px 10px;
 	vertical-align: left;
 }
 div.tableRow{
@@ -116,7 +117,7 @@ div.tableCell{
 }
 #zcproject{
 	//margin:50px 0px;
-	width: 500px;
+	width: 450px;
 }
 #zch{
 	margin-right: 35px;
@@ -128,6 +129,7 @@ div.tableCell{
 }
 .navul{
 	display: inline;
+	margin-left: 50px;
 }
 .navul ul{
 	display: inline;
@@ -157,8 +159,6 @@ div.tableCell{
 }
 .ssubnav li{
 	float: left;
-	padding-right: 10px;
-	padding-top: 10px;
 }
 .ssubnav a:link,.ssubnav a:visited{
 	color: #ccd0cd;
@@ -175,7 +175,7 @@ div.tableCell{
 
 .ssubnav2{
 	display: inline;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 .ssubnav2 li{
 	float: none;
@@ -186,4 +186,89 @@ div#navul2,div#navul2 ul{
 	display: block;
 	padding: 0;
 	margin: 10px 0px;
+}
+div#navul2 li{
+	margin:10px 1px;
+}
+div.zcholder{
+	width: 200px;
+	padding:10px 0px;
+	border:thin solid #ccd0cd;
+}
+div.tableContianer{
+
+}
+div#zchd{
+	margin-top: 10px;
+	border-spacing: 5px 10px;
+}
+img.phimages{
+	margin:0px 10px;
+}
+p.goodsname{
+	font-size: 14px;
+	color: #4ace5f;
+	background-color: #ebeeec;
+	padding: 5px 10px;
+	padding-left:10px; 
+	margin:0px;
+}
+p.intro,p.time,p.money{
+	font-size:12px;
+	padding: 0px 10px;
+	margin: 0px;
+}
+div.zcholder span{
+}
+div.bar{
+	width:72px;
+	margin:auto;
+	margin-top: 10px;
+	padding: 0px 6px;
+}
+div.success{
+	width:145px;
+}
+div.bar span{
+	padding:3px 7px;
+}
+span.success{
+	background-color: #f9c308;
+	color:black;
+	font-size: 14px;
+}
+span.detail{
+	background-color:  #4ace5f;
+}
+span.detail a:link,span.detail a:visited{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+div.bar span.success{
+	display: none;
+}
+div.success span.success{
+	display: inline;
+}
+div#page{
+	display: table-cell;
+}
+div#page p{
+	width: 450px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+div#page a:link,div#page a:visited{
+	color: #b6b2b2;
+	font-size: 14px;
+	text-decoration: none;
+}
+div#page span{
+	margin:10px;
+}
+em{
+	font-style: normal;
+	color:#f9c308;
+	font-size:18px;
 }
