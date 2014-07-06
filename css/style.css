@@ -117,7 +117,7 @@ div.tableCell{
 }
 #zcproject{
 	//margin:50px 0px;
-	width: 450px;
+	width: 512px;
 }
 #zch{
 	margin-right: 35px;
@@ -151,7 +151,7 @@ div.tableCell{
 	background-color: #4ace5f;	
 }
 #subnav{
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	border-bottom: thin solid #ccd0cd;
 }
 .ssubnav ul{
@@ -175,7 +175,7 @@ div.tableCell{
 
 .ssubnav2{
 	display: inline;
-	margin-left: 10px;
+	margin-left: 0px;
 }
 .ssubnav2 li{
 	float: none;
@@ -186,9 +186,10 @@ div#navul2,div#navul2 ul{
 	display: block;
 	padding: 0;
 	margin: 10px 0px;
+	margin-bottom: 20px;
 }
 div#navul2 li{
-	margin:10px 1px;
+	margin:0px 0px;
 }
 div.zcholder{
 	width: 200px;
@@ -227,15 +228,19 @@ div.bar{
 	padding: 0px 6px;
 }
 div.success{
-	width:145px;
+	width:144px;
 }
 div.bar span{
-	padding:3px 7px;
+	padding:3px 5px;
+	display: inline;
 }
-span.success{
+div.success span.success{
+	//display: inline;
 	background-color: #f9c308;
+	margin-right: 3px;
 	color:black;
 	font-size: 14px;
+	padding-top: 5px;
 }
 span.detail{
 	background-color:  #4ace5f;
@@ -271,4 +276,41 @@ em{
 	font-style: normal;
 	color:#f9c308;
 	font-size:18px;
+}
+#yrproject{
+	margin-top: 20px;
+}
+.pictintro span{
+	font-size: 12px;
+	color: #4ace5f;
+}
+.pictintro span.show{
+	font-size: 18px;
+	color: black;
+	background-color: #f9c308;
+	padding:3px 5px;
+	margin-top: 20px;
+	margin-left: 2px;
+}
+.wordsintro{
+	margin-top: 10px;
+}
+.wordsintro span.header{
+	color:black;
+	font-size: 14px;
+	margin-top: 4px;
+}
+.wordsintro p{
+	color:#ccd0cd;
+	font-size: 12px;
+	margin-top: 2px;
+}
+.wordsintro p a{
+	color:#ccd0cd;
+	font-size: 12px;
+	margin-top: 2px;
+	float: right;
+}
+#footer{
+	border-top: thin solid #b6b2b2;
 }
